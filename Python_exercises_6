@@ -1,0 +1,6 @@
+import pip._vendor.requests as requests
+city = input('Podaj miasto(bez polskich znakow): ')
+api_address = 'http://openweathermap.org/data/2.5/weather?q='%20city%20'...
+'
+json_data = requests.get(api_address).json()
+print('Temperatura: ',json_data['main']['temp'],'C','\nNiebo: ',json_data['weather'][0]['description'],)
