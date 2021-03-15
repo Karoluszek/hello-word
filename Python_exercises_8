@@ -1,0 +1,15 @@
+cm=float(input('podaj długośc w cm:'))
+cm_to_m=cm/100
+print('Długość {} cm to {}metrów'.format(cm,cm_to_m))
+
+start=float(input('Podaj stan początkowy konta:'))
+rate=float(input('Stopa oprocentowania:'))
+n=float(input('liczba lat na koncie:'))
+end=start*(1+rate*n)
+print('Twoje {} zł przez {} lata na lokacie *o {} % urośnie do {}'.format(start,n,rate,end))
+
+
+       
+
+      
+      
