@@ -1,0 +1,3 @@
+name=input('Podaj swoje imie\n')
+if name[-1]!='a' or name=='Barnaba':
+  print('imię męskie')
