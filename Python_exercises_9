@@ -1,0 +1,24 @@
+
+
+name=input('Podaj swoje imię ')
+surname=input('Podaj swoje nazwisko ')
+number=input('podaj numer telefonu ')
+name.isalnum()
+surname.isalnum()
+number.isalnum()
+number=number.replace("-","").replace(' ','')
+print(number)
+print("Imię kobiece:", name.endswith("a"))
+personal=name +' ' + surname +' ' + number
+print(personal)
+print(len(personal))
+
+letters = len(personal) - personal.count(" ") - 9
+print(letters)
+print (len(name + surname)) #sprawdzenie
+
+
+
+
+
+
