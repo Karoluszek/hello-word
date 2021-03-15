@@ -1,0 +1,17 @@
+x=int(input('podaj pierwsza liczbe calkowita\n'))
+y=int(input('podaj druga liczbe calkowita\n'))
+print('Iloczyn liczb to', x*y)
+print('Suma liczb to', x+y)
+print('1000')
+number1=100
+number2=30000
+print(number1*number2)
+name='Karolina'
+print(name[0])
+print(name[-1])
+index=0
+index2=-1
+print(name[index]) #to samo co wyżej
+print(name[index2])
+word=input('podaj imie\n') 
+print(word[:2])
