@@ -1,0 +1,7 @@
+list_num = []
+for i in range(6):
+x=r.randrange(1,50)
+print(x)
+list_num.append(x)
+list_num.sort()
+print(list_num)
