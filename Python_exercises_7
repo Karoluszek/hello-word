@@ -1,0 +1,78 @@
+print("hello world!")
+# -*- coding: utf-8 -*-
+
+
+print('Ile masz wzrostu w metrach?')
+wzrost = float(input())
+print('ile ważysz?')
+waga = float(input())
+BMI = waga / (wzrost ** 2)
+print('Twoje BMI wynosi' ,BMI)
+
+print('Podaj swoją wagę ciała w kg')
+masa=float(input())
+print('Podaj swój wzrost w cm')
+wzrost=float(input())
+print('Podaj swój wiek')
+wiek=float(input())
+S=-161
+print("wpisz wartość odpowiadającą twojemu stylowi życia")
+print('Praca siedząca, brak dodatkowej aktywności fizycznej [1.2]')
+print('Praca niefizyczna, mało aktywny tryb życia [1.4]')
+print('Lekka praca fizyczna,  regularne ćwiczenia 3-4 razy (ok. 5h) w tygodniu [1.6]')
+print('Praca fizyczna, regularne ćwiczenia od 5razy (ok. 7h) w tygodniu	[1.8]')
+print('Praca fizyczna ciężka, regularne ćwiczenia 7razy w tygodniu [2.0]')
+aktywnosc=float(input())
+zapotrzebowanie=(10*masa+6.25*wzrost-5*wiek+S)*aktywnosc
+print('Twoje zapotzrebowanie kaloryczne to', zapotrzebowanie)
+
+weight = float(input("Twoja waga [kg]: "))
+height = float(input("Twój wzrost [cm]: "))
+age = int(input("Twój wiek: "))
+S = -161
+PPM = 10 * weight + 6.25 * height + 5 * age + S
+
+print("Dzienne zapotrzebowanie kaloryczne wynosi:", PPM * 1.6, "kcal")
+
+szer = 42
+print("-" * szer)
+print("|  Czas  |     Zawodnik     |    Data    |")
+print("*" * szer)
+print("| %6.3f | %16s | %10s |" % (9.58, "Usain Bolt", "16.08.2009"))
+print("| %6.3f | %16s | %10s |" % (9.69, "Tyson Gay", "20.09.2009"))
+print("| %6.3f | %16s | %10s |" % (9.69, "Yohan Blake", "23.09.2012"))
+print("| %6.3f | %16s | %10s |" % (9.74, "Asafa Powell", "2.09.2008"))
+print("-" * szer)
+
+
+serials = {'Lucyfer' : 9, 'Game of Thrones' : 10, 'The Office' : 10, 'Annie with E' : 9}
+print(list(serials.keys()))
+print('------------------------------------')
+name=input('Jaki seial chcesz onejrzeć?')
+print('Serial {} otrzymal ocenę {}'.format(name, serials[name]))
+print('------------------------------------')
+new=input('Jaki serial dodać do bazy?')
+rating=input('Jaką ocenę przyznajesz + new+ ?')
+serials[new]=float(rating)
+
+text = "ala ma morsa"
+text.count('a')
+text.count('a', 3)
+text.count('a', 3,10)
+text.find("a ")
+text.rfind("a ")
+
+name=input('Podaj swoje imię i nazwisko')
+number=input('podaj numer telefonu')
+name.isalpha()
+numer.isalnum()
+numer.replace("-"," ")
+numer.replace(" ","")
+name.endswith('a',beg=0,end=len(name))
+personal=[name]+[ ] + [number]
+print(personal)
+len(personal)
+
+
+
+
