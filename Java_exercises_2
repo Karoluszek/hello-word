@@ -1,0 +1,6 @@
+Scanner input = new Scanner(System.in);
+        System.out.println("podaj liczbe");
+        int number = input.nextInt();
+        int lastDigit = number%10;
+        System.out.println("twoja liczba to " + lastDigit);
+        //%- reszta z dzielenia (modulo)
